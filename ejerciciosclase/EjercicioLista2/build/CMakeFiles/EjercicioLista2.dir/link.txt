@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\EjercicioLista2.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\EjercicioLista2.dir/objects.a @CMakeFiles\EjercicioLista2.dir\objects1
+c:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\EjercicioLista2.dir/objects.a -Wl,--no-whole-archive -o EjercicioLista2.exe -Wl,--out-implib,libEjercicioLista2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EjercicioLista2.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\ejercicioTipoExamen.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\ejercicioTipoExamen.dir/objects.a @CMakeFiles\ejercicioTipoExamen.dir\objects1
+c:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ejercicioTipoExamen.dir/objects.a -Wl,--no-whole-archive -o ejercicioTipoExamen.exe -Wl,--out-implib,libejercicioTipoExamen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ejercicioTipoExamen.dir\linkLibs.rsp

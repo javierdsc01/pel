@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\vectorPELej.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\vectorPELej.dir/objects.a @CMakeFiles\vectorPELej.dir\objects1
+c:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\vectorPELej.dir/objects.a -Wl,--no-whole-archive -o vectorPELej.exe -Wl,--out-implib,libvectorPELej.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vectorPELej.dir\linkLibs.rsp

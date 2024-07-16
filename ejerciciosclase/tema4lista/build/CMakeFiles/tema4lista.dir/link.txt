@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\tema4lista.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\tema4lista.dir/objects.a @CMakeFiles\tema4lista.dir\objects1
+c:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\tema4lista.dir/objects.a -Wl,--no-whole-archive -o tema4lista.exe -Wl,--out-implib,libtema4lista.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tema4lista.dir\linkLibs.rsp
